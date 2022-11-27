@@ -33,7 +33,6 @@ body {
 }
 
 
-
 /* stylizacvja navigacji*/
 
 .navigation {
@@ -98,14 +97,6 @@ body {
   font-size: 16px;
   color: inherit;
 }
-
-/* obramowanie zdjec wraz z napisami
-ul > li >figure {
-border-style: solid;
-border-color: #eee;
-border-width: 1px;
-}
-/*
 
 
 /* stylizacja 2th napisu pod zdjeciami*/
