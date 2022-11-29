@@ -222,3 +222,13 @@ figure {
 .baground-grey {
   background-color: var(--footer-color);
 }
+
+.pad40 {
+  padding: 0;
+}
+
+
+
+figcaption{
+  padding-left: 30px;
+}
