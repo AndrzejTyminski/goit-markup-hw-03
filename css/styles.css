@@ -1,8 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--dark-black);
-  margin: 0px;
-  padding: 0px;
 }
 
 :root {
@@ -17,15 +15,12 @@ body {
 
 .button-2th {
   border: none;
+  /*margin: 0.2em;*/
   border-radius: 0.2em;
   font-size: 16px;
   cursor: pointer;
   line-height: 1.62;
   font-weight: 500;
-  margin: 0 auto;
-  margin-bottom: 200px;
-  height: 50px;
-  width: 200px;
 }
 
 .button-2th:hover {
@@ -33,6 +28,11 @@ body {
   background-color: var(--blue-hover);
   text-shadow: 20px 20px 40px #858585;
   box-shadow: 0px 3px 5px #bbbbbb;
+}
+
+/* do skasowania*/
+.xxxbutton-2th:focus {
+  color: var(--dark-black);
 }
 
 /* stylizacvja navigacji*/
@@ -98,15 +98,22 @@ body {
   font-weight: bold;
   font-size: 16px;
   color: inherit;
-  text-align: center;
 }
+
+/* obramowanie zdjec wraz z napisami
+ul > li >figure {
+border-style: solid;
+border-color: #eee;
+border-width: 1px;
+}
+/*
+
 
 /* stylizacja 2th napisu pod zdjeciami*/
 
 .figcaption-2th {
   color: var(--gray);
   font-size: 16px;
-  text-align: center;
 }
 
 /*adresy w stopce */
@@ -120,7 +127,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: underline;
 }
-.addres-bottom-white-dc:hover {
+.addres-bottom-white-dc:hover{
   text-decoration: underline;
 }
 .email-addres-bottom-grey {
@@ -129,8 +136,9 @@ body {
   line-height: 1.71;
   font-size: 14px;
 }
-.email-addres-bottom-grey:hover {
-  text-decoration: underline;
+.email-addres-bottom-grey:hover
+{
+text-decoration: underline;
 }
 .telephone-number-grey {
   color: rgba(255, 255, 255, 0.6);
@@ -139,7 +147,8 @@ body {
   text-decoration: none;
   font-size: 14px;
 }
-.telephone-number-grey:hover {
+.telephone-number-grey:hover
+{
   text-decoration: underline;
 }
 
@@ -155,79 +164,13 @@ ul {
   font-weight: 900;
   font-size: 44px;
   text-align: center;
-  margin: 200px 0 30px;
 }
 
 /* stopka szare tlo */
 .footer-grey {
   background-color: var(--footer-color);
-  display: flex;
-  flex-direction: column;
 }
 
 .logo-studio-white {
   color: #ffffff;
 }
-
-
-.list-item-lorem {
-  display: flex;
-  margin: 0;
-}
-
-
-.containerheader {
-  max-width: 1200px;
-
-}
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 94px;
-  
-}
-
-.grey {
-  background-color: #F5F4FA;
-}
-
-
-
-
-.flex-3x {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  margin: 0;
-padding-left: 0;
-}
-
-.center {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 50px;
-  padding-top: 94px;
-  
-}
-
-figure {
-  margin: 0;
-  
-
-}
-
-figure {
-  background-color: white;
-border-radius: 3px;
-padding-bottom: 10px;
-}
-
-.navigationa {
-  padding: 0;
-}
-
- .padding50 {padding: 50px 0;
-margin: 0;}
-
-.bottom {padding-bottom: 0;}
