@@ -18,13 +18,15 @@ body {
   height: 38px;
   padding: 0 22px;
   border: none;
-  /*margin: 0.2em;*/
   border-radius: 0.2em;
   font-size: 16px;
   cursor: pointer;
   line-height: 1.62;
   font-weight: 500;;
 }
+
+
+
 
 .button-2th:hover {
   color: #ffffff;
@@ -34,13 +36,14 @@ body {
 }
 
 .button-flex {
-  margin-top: 0px;
-  padding-top: 94px;
+  margin: 0px;
+  padding: 94px 0 50px;
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 50px;
+
 }
 
 
@@ -242,11 +245,16 @@ img {
 /* naglowek */
 .header-flex {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
+  justify-content: flex-start;
   align-items: center;
-  
+  flex-shrink:;
+}
+
+.header-flex-third{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink:;
 }
 
 /* agencja porfolio kontakt */
@@ -254,6 +262,10 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+
+
+
+
 
 .bottom-line {
   border-bottom: 1px solid #ECECEC;
