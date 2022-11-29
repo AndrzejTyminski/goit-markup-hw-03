@@ -14,6 +14,9 @@ body {
 /*stylizacja przyciskow button*/
 
 .button-2th {
+  box-sizing: content-box;
+  height: 38px;
+  padding: 0 22px;
   border: none;
   /*margin: 0.2em;*/
   border-radius: 0.2em;
@@ -48,6 +51,7 @@ body {
   color: inherit;
   font-size: 14px;
   font-weight: 500;
+  padding: 23px;
 
 }
 
@@ -76,7 +80,6 @@ body {
   font-size: 26px;
   text-decoration: none;
   color: inherit;
-
 }
 
 .logo:visited {
@@ -94,17 +97,21 @@ body {
   color: var(--gray);
   text-decoration: none;
   font-size: 14px;
+  padding: 25px;
+  
 }
 
 .gray-links:hover {
   color: var(--blue-hover);
 }
 
-/* napisy pod zdjeciami Bold */
+
 .text-under-photo {
   font-weight: bold;
   font-size: 16px;
   color: inherit;
+  margin: 0;
+  padding-top: 20px;
 }
 
 /* obramowanie zdjec wraz z napisami
@@ -193,30 +200,20 @@ ul {
   padding-bottom: 0px;
 }
 
-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-nav > ul {
-  display: flex;
-  gap: 46px;
-  margin-left: 46px;
-}
-
-
 .flex9x9 {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 30px;
   justify-content: space-between;
   padding: 0;
   margin: 0;
+  align-content: space-between;
+
 }
 
 figure {
   margin: 0;
+  display: block;
 }
 
 .baground-grey {
@@ -231,4 +228,43 @@ figure {
 
 figcaption{
   padding-left: 30px;
+  border-bottom: 1px #EEEEEE solid;
+  border-left: 1px #EEEEEE solid;
+  border-right: 1px #EEEEEE solid;
+}
+
+img {
+  display: block;
+}
+
+.wsapk-flex {
+  display: flex;
+  flex-direction: row ;
+  align-items: center;
+
+  
+  
+}
+
+
+.apk-flex {
+  display: flex;
+  flex-direction: row ;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 93px;
+  
+}
+
+.flex-at {
+
+  display: flex;
+  flex-direction: row;
+  
+  
+
+}
+
+.border-bottom {
+  border-bottom-style: double ;
 }
