@@ -17,7 +17,6 @@ body {
 
 .button-2th {
   border: none;
-  box-sizing: border-box;
   border-radius: 0.2em;
   font-size: 16px;
   cursor: pointer;
@@ -99,6 +98,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   color: inherit;
+  text-align: center;
 }
 
 /* stylizacja 2th napisu pod zdjeciami*/
@@ -106,6 +106,7 @@ body {
 .figcaption-2th {
   color: var(--gray);
   font-size: 16px;
+  text-align: center;
 }
 
 /*adresy w stopce */
@@ -171,5 +172,49 @@ ul {
 
 .list-item-lorem {
   display: flex;
+  margin: 0;
+}
+
+
+.containerheader {
+  max-width: 1200px;
+
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 94px;
+  
+}
+
+
+
+
+.flex-3x {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 0;
+padding-left: 0;
+}
+
+.center {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  
+}
+
+figure {
+  margin: 0;
+  
+
+}
+
+figure {
+  background-color: white;
+border-radius: 3px;
+padding-bottom: 10px;
 }
 
