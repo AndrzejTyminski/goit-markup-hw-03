@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>hw2-portfolio</title>
 
@@ -16,12 +22,16 @@
     />
   </head>
   <body>
+
+
+    <!-- header -->
+
+    
+  <section class="section padding0px">
     <header>
       <a class="logo" href="./index.html"
         ><span class="blue">Web</span>Studio</a
       >
-
-      <!--navigacja strony-->
 
       <nav>
         <ul>
@@ -42,22 +52,30 @@
         </li>
       </ul>
     </header>
-    <main>
-      
-        <!--przyciski "wszystkie - strony - ..."-->
-        <div>
-          <ul>
-            <li><button class="button-2th" type="button">Wszystkie</button></li>
-            <li><button class="button-2th" type="button">Strony</button></li>
-            <li><button class="button-2th" type="button">Aplikacje</button></li>
-            <li><button class="button-2th" type="button">Dizajn</button></li>
-            <li><button class="button-2th" type="button">Marketing</button></li>
-          </ul>
-        </div>
-      
-        <!--grupa zdjec 9*9-->
-      <section>
-        <ul>
+</section>
+<!-- main -->
+
+
+   <main>
+      <!--przyciski "wszystkie - strony - ..."-->
+ 
+
+      <section class="section">
+        <ul class="button-flex">
+          <li><button class="button-2th" type="button">Wszystkie</button></li>
+          <li><button class="button-2th" type="button">Strony</button></li>
+          <li><button class="button-2th" type="button">Aplikacje</button></li>
+          <li><button class="button-2th" type="button">Dizajn</button></li>
+          <li><button class="button-2th" type="button">Marketing</button></li>
+        </ul>
+
+
+      <!--grupa zdjec 9*9-->
+
+
+
+     
+        <ul class="flex9x9">
           <li>
             <figure>
               <a href="#">
@@ -84,7 +102,9 @@
                   alt="dwoch koszykarzy NBA"
               /></a>
               <figcaption>
-                <h3 class="text-under-photo">Grafika New Orlean vs Golden Star</h3>
+                <h3 class="text-under-photo">
+                  Grafika New Orlean vs Golden Star
+                </h3>
                 <p class="figcaption-2th">Dizajn</p>
               </figcaption>
             </figure>
@@ -197,16 +217,20 @@
           </li>
         </ul>
       </section>
-      
     </main>
+
+
     <!--stopka strony-->
+
+
+    <div class="baground-grey">
+    <section class="section padding0px">
     <footer class="footer-grey">
       <a class="logo" href="./index.html"
-        ><span class="blue">Web</span><span class="logo-studio-white">Studio</span></a
-      >
+        ><span class="blue">Web</span
+        ><span class="logo-studio-white">Studio</span></a>
       <address>
         <ul>
-          <li>
             <a
               class="addres-bottom-white-dc"
               href="https://goo.gl/maps/EFfzQXjzQr1CS8pH7"
@@ -219,15 +243,16 @@
             >
           </li>
           <li>
-            <a
-              class="telephone-number-grey"
-              href="tel:+48111111111"
-              >+48 111 111 111</a>
-             
+            <a class="telephone-number-grey" href="tel:+48111111111"
+              >+48 111 111 111</a
             >
+
+            
           </li>
         </ul>
       </address>
     </footer>
+  </section>
+    </div>
   </body>
 </html>
