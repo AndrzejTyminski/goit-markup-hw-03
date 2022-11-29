@@ -189,10 +189,11 @@ ul {
 }
 
 
-.section {
+.container {
   max-width: 1200px;
-  padding-bottom: 94px;
-  margin: 0 auto;
+ padding-bottom: 94px;
+ margin: auto;
+
 }
 
 .padding0px {
@@ -254,6 +255,9 @@ img {
 
 .bottom-line {
   border-bottom: 1px solid #ECECEC;
+
+  
 }
 
 .bagroundc {background-color: #2196f3;}
+
