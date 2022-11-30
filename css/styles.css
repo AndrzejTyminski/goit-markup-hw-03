@@ -207,7 +207,7 @@ ul {
 .flex9x9 {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px 5px;
+  gap: 40px;
   justify-content: space-between;
   padding: 0;
   margin: 0;
