@@ -4,22 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
   </head>
   <body>
-    <header >
+
+   
+    <header> 
+
+   <div class="container navigationa">
+
       <a class="logo" href="./index.html"
-        ><span class="blue">Web</span>Studio</a
-      >
+        ><span class="blue">Web</span>Studio</a>
 
       <!--navigacja strony-->
 
@@ -41,20 +49,34 @@
           <a class="gray-links" href="tel:+48111111111">+48 111 111 111</a>
         </li>
       </ul>
-    </header>
+  </div>
+
+    </header> 
+   
+
     <!--główny baner-->
-    <main>
+ 
+    <div class="grey-dark">
+      <div class="container contaner2">
+        
       <section class="footer-grey">
         <h1 class="text-main-banner">
           EFEKTYWNE ROZWIĄZANIA <br />
           DLA WASZEGO BIZNESU
         </h1>
-        <button class="button-2th" type="button">Zamów usługę</button>
+        <button class="button-2th" type="button">Zamów usługę</button>     
+ 
       </section>
+    </div>
+    </div>
+  
+
       <!-- sekcja 4* lorem ipsum-->
-      <section>
-        <ul>
-          <li>
+
+      <div class="container">
+      <section class="lorem">
+        <ul class="list-item-lorem">
+          <li >
             <h3 class="loremipsum-h3">lorem ipsum</h3>
             <p class="text-under-lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
@@ -63,7 +85,7 @@
               Tempore, corrupti asperiores?
             </p>
           </li>
-          <li>
+          <li >
             <h3 class="loremipsum-h3">lorem ipsum</h3>
             <p class="text-under-lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
@@ -72,7 +94,7 @@
               Tempore, corrupti asperiores?
             </p>
           </li>
-          <li>
+          <li c>
             <h3 class="loremipsum-h3">lorem ipsum</h3>
             <p class="text-under-lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
@@ -81,7 +103,7 @@
               Tempore, corrupti asperiores?
             </p>
           </li>
-          <li>
+          <li >
             <h3 class="loremipsum-h3">lorem ipsum</h3>
             <p class="text-under-lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
@@ -91,12 +113,15 @@
             </p>
           </li>
         </ul>
+        </section></div>
       </section>
 
       <!--sekcja czym sie zajmujemy-->
-      <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+
+      <section> 
+        <div class="container">
+        <h2 class="center">Czym się zajmujemy</h2>
+        <ul class="flex-3x">
           <li></li>
             <img
               src="images/box1.jpg"
@@ -122,13 +147,17 @@
               alt="color cheker on tablet"
             />
           </li>
-        </ul>
+        </ul> 
+         </div>
       </section>
+  
 
       <!--nasz zespół-->
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+
+      <section> 
+      <div class="container grey">
+        <h2 class="center">Nasz zespół</h2>
+        <ul class="flex-3x">
           <li>
             <figure>
               <img
@@ -186,36 +215,44 @@
             </figure>
           </li>
         </ul>
+          </div>
       </section>
-    </main>
+
+    </div>
+    <!-- </main> -->
     <!--stopka strony-->
-    <footer class="footer-grey">
-      <a class="logo" href="./index.html"
-        ><span class="blue">Web</span><span class="logo-studio-white">Studio</span></a
-      >
-      <address>
-        <ul>
-          <li>
-            <a
-              class="addres-bottom-white-dc"
-              href="https://goo.gl/maps/EFfzQXjzQr1CS8pH7"
-              >m. Warszawa, Aleje Jerozolimskie 21</a
-            >
-          </li>
-          <li>
-            <a class="email-addres-bottom-grey" href="mailto:info@example.com"
-              >info@example.com</a>
-            
-          </li>
-          <li>
-            <a
-              class="telephone-number-grey"
-              href="tel:+48111111111"
-              >+48 111 111 111</a>
-            
-          </li>
-        </ul>
-      </address>
-    </footer>
+     <div class="grey-dark bottom">
+        <div class="container bottom">
+
+            <footer class="footer-grey padding50">
+              <a class="logo" href="./index.html"
+                ><span class="blue">Web</span><span class="logo-studio-white">Studio</span></a
+              >
+              <address>
+                <ul>
+                  <li>
+                    <a
+                      class="addres-bottom-white-dc"
+                      href="https://goo.gl/maps/EFfzQXjzQr1CS8pH7"
+                      >m. Warszawa, Aleje Jerozolimskie 21</a
+                    >
+                  </li>
+                  <li>
+                    <a class="email-addres-bottom-grey" href="mailto:info@example.com"
+                      >info@example.com</a>
+                    
+                  </li>
+                  <li>
+                    <a
+                      class="telephone-number-grey"
+                      href="tel:+48111111111"
+                      >+48 111 111 111</a>
+                    
+                  </li>
+                </ul>
+              </address>
+            </footer>
+        </div>
+        </div>
   </body>
 </html>
