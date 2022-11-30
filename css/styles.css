@@ -133,8 +133,9 @@ body {
 .addres-bottom-white-dc {
   text-decoration: none;
   font-style: normal;
-  line-height: 1.71;
+  line-height: 2;
   color: white;
+
 }
 .addres-bottom-white-dc:visited {
   color: rgba(255, 255, 255, 0.6);
@@ -146,12 +147,20 @@ body {
 .email-addres-bottom-grey {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  line-height: 1.71;
+  line-height: 2.71;
   font-size: 14px;
+  margin: 19px 0;
+
 }
 .email-addres-bottom-grey:hover {
   text-decoration: underline;
+
 }
+
+.pad40 {
+  padding: 0px 0;
+} 
+
 .telephone-number-grey {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
@@ -199,8 +208,8 @@ ul {
 .flex9x9 {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  justify-content: space-between;
+  gap: 30px;
+  justify-content: space-around;
   padding: 0;
   margin: 0;
   align-content: stretch;
@@ -216,9 +225,7 @@ figure {
   background-color: var(--footer-color);
 }
 
-.pad40 {
-  padding: 0;
-}
+
 
 figcaption {
   padding-left: 24px;
