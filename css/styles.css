@@ -37,6 +37,7 @@ body {
   padding: 94px 0 50px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
 }
@@ -77,7 +78,7 @@ body {
   font-size: 26px;
   text-decoration: none;
   color: inherit;
-  padding: 24px 0 25px;
+  padding: 24px 93px 25px 0px;
 }
 
 .logo:visited {
@@ -208,8 +209,8 @@ ul {
 .flex9x9 {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  justify-content: space-around;
+  gap: 40px;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
   align-content: stretch;
@@ -257,8 +258,8 @@ img {
 .navigation-flex {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 0 0 93px;
-  margin: 0;
+   margin: 0;
+   padding-inline-start: 0px
 }
 
 .bottom-line {
