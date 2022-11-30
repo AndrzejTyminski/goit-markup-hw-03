@@ -49,7 +49,7 @@ body {
   color: inherit;
   font-size: 14px;
   font-weight: 500;
-  padding: 23px;
+  padding: 0px 46px 0 0;
 }
 
 .navigation:hover {
@@ -240,6 +240,7 @@ img {
 .navigation-flex {
   display: flex;
   flex-wrap: wrap;
+  padding: 0 0 0 93px;
 }
 
 .bottom-line {
