@@ -97,8 +97,7 @@ body {
   text-decoration: none;
   font-size: 14px;
 
-
-  padding: 32px 0 32px 50px ;
+  padding: 32px 0 32px 50px;
 }
 
 .gray-links:hover {
@@ -109,22 +108,18 @@ body {
   font-weight: bold;
   font-size: 16px;
   color: inherit;
-  margin: 0px; 
+  margin: 0px;
   padding: 10px;
   padding-bottom: 10px;
   padding-left: 0;
   padding-top: 26px;
-
-
-
-
 }
 
 .figcaption-2th {
   color: var(--gray);
   font-size: 16px;
   margin: 0;
-  padding:10px;
+  padding: 10px;
   padding-left: 0;
   padding-top: 10px;
   margin-bottom: 16px;
@@ -136,7 +131,6 @@ body {
   font-style: normal;
   line-height: 2;
   color: white;
-
 }
 .addres-bottom-white-dc:visited {
   color: rgba(255, 255, 255, 0.6);
@@ -151,16 +145,14 @@ body {
   line-height: 2.71;
   font-size: 14px;
   margin: 19px 0;
-
 }
 .email-addres-bottom-grey:hover {
   text-decoration: underline;
-
 }
 
 .pad40 {
   padding: 0px 0;
-} 
+}
 
 .telephone-number-grey {
   color: rgba(255, 255, 255, 0.6);
@@ -199,7 +191,6 @@ ul {
   max-width: 1200px;
   margin: auto;
   padding-bottom: 94px;
-
 }
 
 .padding0px {
@@ -214,7 +205,6 @@ ul {
   padding: 0;
   margin: 0;
   align-content: stretch;
-
 }
 
 figure {
@@ -225,8 +215,6 @@ figure {
 .baground-grey {
   background-color: var(--footer-color);
 }
-
-
 
 figcaption {
   padding-left: 24px;
@@ -258,8 +246,8 @@ img {
 .navigation-flex {
   display: flex;
   flex-wrap: wrap;
-   margin: 0;
-   padding-inline-start: 0px
+  margin: 0;
+  padding-inline-start: 0px;
 }
 
 .bottom-line {
