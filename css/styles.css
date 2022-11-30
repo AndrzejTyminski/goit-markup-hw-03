@@ -169,7 +169,7 @@ ul {
 /* stopka szare tlo */
 .footer-grey {
   background-color: var(--footer-color);
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 .logo-studio-white {
@@ -178,8 +178,9 @@ ul {
 
 .container {
   max-width: 1200px;
-
   margin: auto;
+  padding-bottom: 94px;
+
 }
 
 .padding0px {
@@ -194,7 +195,7 @@ ul {
   padding: 0;
   margin: 0;
   align-content: stretch;
-  margin-bottom: 94px;
+
 }
 
 figure {
@@ -245,6 +246,7 @@ img {
 
 .bottom-line {
   border-bottom: 1px solid #ececec;
+  height: 80px;
 }
 
 .bagroundc {
