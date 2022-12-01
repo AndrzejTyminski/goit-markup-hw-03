@@ -35,7 +35,7 @@ body {
   color: #ffffff;
   background-color: var(--blue-hover);
   text-shadow: 20px 20px 40px #858585;
-  box-shadow: 0px 3px 5px #bbbbbb;
+  box-shadow: 0px 3px 5px #000000;
 }
 
 .button-flex {
