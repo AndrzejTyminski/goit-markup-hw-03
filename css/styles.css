@@ -9,8 +9,7 @@ body {
   --gray: #757575;
   --footer-color: #2f303a;
   --black: #000000;
-  --light-gray: #F5F4FA;
-
+  --light-gray: #f5f4fa;
 }
 
 /*stylizacja przyciskow button*/
@@ -28,11 +27,9 @@ body {
   display: inline-block;
   margin: 0 auto;
   margin-bottom: 200px;
-
 }
 
-.margin-bottom0
-{
+.margin-bottom0 {
   margin-bottom: 0;
 }
 
@@ -64,19 +61,17 @@ body {
   padding: 0px 46px 0 0;
 }
 
-li:last-child  {
+li:last-child {
   padding: 0px;
-
 }
 
-.flex-3x{
+.flex-3x {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
   justify-content: space-between;
-
 }
 
 .center {
@@ -85,12 +80,9 @@ li:last-child  {
   margin: 0;
 }
 
-
 .navigation:hover {
   color: var(--blue-hover);
 }
-
-
 
 /* LOREM IPSUM index.html *4*/
 
@@ -213,9 +205,9 @@ ul {
   font-style: normal;
   color: #ffffff;
   font-weight: 900;
-text-align: center;
+  text-align: center;
   font-size: 44px;
-  
+
   margin: 0px;
   padding-top: 200px;
   margin-bottom: 30px;
@@ -243,7 +235,6 @@ text-align: center;
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  
 }
 
 .padding0px {
@@ -309,9 +300,6 @@ img {
   padding-inline-start: 0px;
 }
 
-
-
-
 .bottom-line {
   border-bottom: 1px solid #ececec;
   height: 80px;
@@ -321,7 +309,6 @@ img {
   background-color: #2196f3;
 }
 
-
 .lorem-flex {
   display: flex;
   flex-direction: row;
@@ -330,13 +317,17 @@ img {
 }
 
 .light-gray {
- background-color: var(--light-gray);
+  background-color: var(--light-gray);
 }
 
-.white {background-color: #ffffff;}
+.white {
+  background-color: #ffffff;
+}
 
-.shadow 
-{
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+.shadow {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+
 }
