@@ -9,7 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
 
@@ -22,54 +28,63 @@
   <body>
 
    
-    <header> 
-
-   <div class="container navigationa">
-
-      <a class="logo" href="./index.html"
-        ><span class="blue">Web</span>Studio</a>
-
-      <!--navigacja strony-->
-
-      <nav>
-        <ul>
-          <li><a class="navigation" href="#">Agencja</a></li>
-          <li><a class="navigation" href="./portfolio.html">Porfolio</a></li>
-          <li><a class="navigation" href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <!--dane adresowy w naglowku-->
-      <ul>
-        <li>
-          <a class="gray-links" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="gray-links" href="tel:+48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
-  </div>
-
-    </header> 
-   
+    <header class="bottom-line">
+      <section class="container">
+     
+  
+      
+            <div class="header-flex-third">
+              <div class="header-flex">
+                <a class="logo" href="./index.html"
+                  ><span class="blue">Web</span>Studio</a
+                >
+  
+                <nav>
+                  <ul class="navigation-flex">
+                    <li><a class="navigation" href="#">Agencja</a></li>
+                    <li>
+                      <a class="navigation" href="./portfolio.html">Porfolio</a>
+                    </li>
+                    <li><a class="navigation" href="#">Kontakt</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <ul class="navigation-flex">
+                <li>
+                  <a class="gray-links" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="gray-links" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </header>
+       
+      </section>
 
     <!--główny baner-->
  
-    <div class="grey-dark">
-      <div class="container contaner2">
+<div class="baground-grey">
+      <div class="container "> <!-- width 1200 -->
         
-      <section class="footer-grey">
-        <h1 class="text-main-banner">
+        
+      <section class="baground-grey grey-flex ">
+        <h1 class="text-main-banner ">
           EFEKTYWNE ROZWIĄZANIA <br />
           DLA WASZEGO BIZNESU
+
+
         </h1>
         <button class="button-2th" type="button">Zamów usługę</button>     
  
       </section>
     </div>
-    </div>
-  
+    
+  </div>
 
       <!-- sekcja 4* lorem ipsum-->
 
@@ -221,38 +236,38 @@
     </div>
     <!-- </main> -->
     <!--stopka strony-->
-     <div class="grey-dark bottom">
-        <div class="container bottom">
-
-            <footer class="footer-grey padding50">
-              <a class="logo" href="./index.html"
-                ><span class="blue">Web</span><span class="logo-studio-white">Studio</span></a
-              >
-              <address>
-                <ul>
-                  <li>
-                    <a
-                      class="addres-bottom-white-dc"
-                      href="https://goo.gl/maps/EFfzQXjzQr1CS8pH7"
-                      >m. Warszawa, Aleje Jerozolimskie 21</a
-                    >
-                  </li>
-                  <li>
-                    <a class="email-addres-bottom-grey" href="mailto:info@example.com"
-                      >info@example.com</a>
-                    
-                  </li>
-                  <li>
-                    <a
-                      class="telephone-number-grey"
-                      href="tel:+48111111111"
-                      >+48 111 111 111</a>
-                    
-                  </li>
-                </ul>
-              </address>
-            </footer>
-        </div>
-        </div>
+    <div class="baground-grey">
+      <section class="container">
+        <footer class="footer-grey">
+          <a class="logo" href="./index.html"
+            ><span class="blue">Web</span
+            ><span class="logo-studio-white">Studio</span></a
+          >
+          <address>
+            <ul class="pad40">
+              <li>
+                <a
+                  class="addres-bottom-white-dc"
+                  href="https://goo.gl/maps/EFfzQXjzQr1CS8pH7"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li>
+                <a
+                  class="email-addres-bottom-grey"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="telephone-number-grey" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </footer>
+      </section>
+    </div>
   </body>
 </html>
