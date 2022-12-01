@@ -9,6 +9,8 @@ body {
   --gray: #757575;
   --footer-color: #2f303a;
   --black: #000000;
+  --light-gray: #F5F4FA;
+
 }
 
 /*stylizacja przyciskow button*/
@@ -62,6 +64,20 @@ li:last-child  {
 
 }
 
+.flex-3x{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0;
+}
 
 
 .navigation:hover {
@@ -214,6 +230,10 @@ text-align: center;
   padding-top: 94px;
 }
 
+.section-pad0 {
+  padding-top: 0;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -301,4 +321,8 @@ img {
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
+}
+
+.light-gray {
+ background-color: var(--light-gray);
 }
