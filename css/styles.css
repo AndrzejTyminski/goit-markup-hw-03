@@ -34,7 +34,7 @@ body {
 
 .button-flex {
   margin: 0px;
-  padding: 94px 0 50px;
+  padding: 0px 0 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -197,10 +197,15 @@ ul {
   color: #ffffff;
 }
 
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .container {
   max-width: 1200px;
-  margin: auto;
-  padding-bottom: 94px;
+  margin: 0 auto;
+
 }
 
 .padding0px {
@@ -265,7 +270,7 @@ img {
 
 .bottom-line {
   border-bottom: 1px solid #ececec;
-  height: 80px;
+  
 }
 
 .bagroundc {
