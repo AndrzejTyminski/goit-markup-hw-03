@@ -154,6 +154,7 @@ li:last-child  {
   line-height: 2.71;
   font-size: 14px;
   margin: 19px 0;
+  font-style: normal;
 }
 .email-addres-bottom-grey:hover {
   text-decoration: underline;
@@ -209,7 +210,7 @@ ul {
 .flex9x9 {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   justify-content: space-between;
   padding: 0;
   margin: 0;
