@@ -15,6 +15,8 @@ body {
 /*stylizacja przyciskow button*/
 
 .button-2th {
+  color: white;
+  background-color: var(--blue-hover);
   box-sizing: border-box;
   height: 38px;
   padding: 0 24px;
@@ -27,17 +29,11 @@ body {
   display: inline-block;
   margin: 0 auto;
   margin-bottom: 200px;
+  box-shadow: 0px 3px 5px #222222;
 }
 
 .margin-bottom0 {
   margin-bottom: 0;
-}
-
-.button-2th:hover {
-  color: #ffffff;
-  background-color: var(--blue-hover);
-  text-shadow: 20px 20px 40px #858585;
-  box-shadow: 0px 3px 5px #4a4a4a;
 }
 
 .button-flex {
