@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--dark-black);
+  margin: 0;
 }
 
 :root {
@@ -28,7 +29,10 @@ body {
   font-weight: 500;
   display: inline-block;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 121px;
+}
+
+.button-2th:hover{
   box-shadow: 0px 3px 5px #222222;
 }
 
@@ -176,6 +180,7 @@ li:last-child {
 
 .pad40 {
   padding: 0px 0;
+  margin: 0;
 }
 
 .telephone-number-grey {
@@ -203,9 +208,8 @@ ul {
   font-weight: 900;
   text-align: center;
   font-size: 44px;
-
   margin: 0px;
-  padding-top: 200px;
+  padding-top: 121px;
   margin-bottom: 30px;
 }
 
@@ -309,7 +313,8 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0;
+  padding: 0 15px;
+  column-gap: 30px;
 }
 
 .light-gray {
@@ -324,4 +329,9 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+
+}
+
+.section60 {
+  padding: 60px 0;
 }
